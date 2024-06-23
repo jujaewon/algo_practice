@@ -4,3 +4,4 @@ https://www.acmicpc.net/problem/9461
 https://www.acmicpc.net/problem/1912
 https://www.acmicpc.net/problem/1149
 https://www.acmicpc.net/problem/1932
+https://www.acmicpc.net/problem/2579
