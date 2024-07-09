@@ -5,3 +5,4 @@ https://www.acmicpc.net/problem/24480
 https://www.acmicpc.net/problem/24444
 https://www.acmicpc.net/problem/24445
 https://www.acmicpc.net/problem/2606
+https://www.acmicpc.net/problem/1260
