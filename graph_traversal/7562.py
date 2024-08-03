@@ -14,7 +14,7 @@ def bfs(x, y):
     while q:
         x, y = q.popleft()
 
-        if x == ex and y == ey:
+        if x == x_end and y == y_end:
             return chess[x][y]
 
         for i in range(8):
@@ -30,5 +30,5 @@ for _ in range(T):  # 테스트 케이스
     L = int(input())  # 한 변의 길이
     chess = [[0] * L for _ in range(L)]
     x_start, y_start = map(int, input().split())  
-    ex, ey = map(int, input().split())  
+    x_end, y_end = map(int, input().split())  
     print(bfs(x_start, y_start))
