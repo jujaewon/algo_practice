@@ -12,5 +12,5 @@ https://www.acmicpc.net/problem/7562
 https://www.acmicpc.net/problem/7576
 https://www.acmicpc.net/problem/7569
 https://www.acmicpc.net/problem/16928
-
+https://www.acmicpc.net/problem/2206
 https://www.acmicpc.net/problem/1707
