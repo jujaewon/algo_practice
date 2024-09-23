@@ -1,20 +1,20 @@
 import sys
 import heapq
 
-n, m = map(int, sys.stdin.readline().rstrip().split())
+N, M = map(int, sys.stdin.readline().rstrip().split())
 
 answer = []
-graph = [[] for _ in range(n + 1)]
-inDegree = [0 for _ in range(n+1)]
+graph = [[] for _ in range(N + 1)]
+inDegree = [0 for _ in range(N + 1)]
 queue = []
 
 
-for i in range(m):
-    first, second = map(int, sys.stdin.readline().rstrip().split())
-    graph[first].append(second)
-    inDegree[second] += 1
+for i in range(M):
+    A, B = map(int, sys.stdin.readline().rstrip().split())
+    graph[A].append(B)
+    inDegree[B] += 1
 
-for i in range(1, n + 1):
+for i in range(1, N + 1):
     if inDegree[i] == 0:
         heapq.heappush(queue, i)
 
